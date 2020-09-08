@@ -1,1 +1,1 @@
-# JavaScript_Learning_Everyday
+# JavaScript_Learning
