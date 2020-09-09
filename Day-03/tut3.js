@@ -1,23 +1,30 @@
-console.log('tut3');
+console.log('JavaScript_Learning_Day-03');
+
 // Variables in js
-// var, let, const
-var name = 'harry';
+// var, let, const (Key Words)
+
+var name = 'Amit';
 var channel;
 var marks = 3454;
 marks = 0;
-channel = 'CodeWithHarry'
+channel = 'JavaScript_learning';
 console.log(name, channel, marks);
+
 // Rules for creating JavaScript Variables
+
 /*
 1. Cannot start with numbers
 2. Can start with letter, numbers, _ or $
 3. Are case sensitive
 */
+
 var city = 'Delhi';
 console.log(city);
 
-const ownersName = 'Hari Ram';
+const ownersName = 'Manjay';
+
 // ownersName = 'Harry'; // Cannot do this (error)
+
 console.log(ownersName);
 const fruit = 'Orange';
 

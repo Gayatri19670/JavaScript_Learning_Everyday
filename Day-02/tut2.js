@@ -1,5 +1,5 @@
 
-console.log('wlcm to tut 2');
+console.log('JavaScript_Learning_Day-02');
 
 //  types of console
 

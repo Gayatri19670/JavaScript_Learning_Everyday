@@ -1,4 +1,5 @@
 console.log('hello! world Welcome to JavaScript');
+console.log('JavaScript_Learning_Day-04');
 
 // Data Types In JavaScript
 
@@ -37,13 +38,13 @@ let stMarks = {
     Shubham: 36,
     Rohan: 34
 }
-console.log( typeof stMarks);
+console.log(typeof stMarks);
 
 function findName() {
-    
+
 }
-console.log( typeof findName);
+console.log(typeof findName);
 
 let date = new Date();
-console.log( typeof date);
+console.log(typeof date);
 
