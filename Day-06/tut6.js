@@ -1,10 +1,10 @@
-console.log('We are at tut6');
+console.log('JavaScript_Learning_Day-05');
 const myName = 'Samir';
 const greeting = 'Good Morning';
 console.log(greeting + ' ' + myName);
 
 let html;
-html = "<h1> hello i am samir gupta</h1>" +
+html = "<h1> hello i am Samir Gupta</h1>" +
     "<p>what is your name</P>";
 
 html = html.concat('This', 'str2');
