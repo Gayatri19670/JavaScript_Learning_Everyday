@@ -1,4 +1,5 @@
 console.log('JavaScript_Learning_Day-06');
+
 const myName = 'Samir';
 const greeting = 'Good Morning';
 console.log(greeting + ' ' + myName);
