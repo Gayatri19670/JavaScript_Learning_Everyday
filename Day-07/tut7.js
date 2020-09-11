@@ -63,12 +63,3 @@ console.log(marks);
 let marks2 = [1, 2, 3, 74, 5];
 marks = marks.concat(marks2);
 console.log(marks);
-
-let myobj = {
-    name: 'samir',
-    channel: 'CodewithHarry',
-    isActive: true,
-    marks: [1, 5, 3, 6]
-}
-console.log(myobj);
-console.log(myobj.isActive);
