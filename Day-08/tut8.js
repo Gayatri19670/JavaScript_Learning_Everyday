@@ -56,3 +56,5 @@ switch (age) {
         console.log('You are unknown age');
         break;
 }
+
+console.log('JavaScript_Happy_Learning');
