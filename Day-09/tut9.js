@@ -7,7 +7,7 @@ a += 1;
 a++;
 console.log(a);
 for (let i = 0; i < 100; i++) {
-    console.log(i);
+    // console.log(i);
 }
 
 let j = 110;
@@ -46,7 +46,5 @@ let obj = {
 for (let key in obj) {
     console.log(`The ${key} of object is ${obj[key]}`)
 }
-
 console.log('done');
-
 console.log('Happy_Learning_JavaScript');
