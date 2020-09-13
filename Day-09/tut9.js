@@ -1,9 +1,5 @@
 console.log('JavaScript_Learning_Day-09');
 
-console.log(1)
-console.log(2)
-console.log(3)
-
 // General Loops: for,while, do-while
 
 let a = 34;
@@ -42,7 +38,7 @@ arr.forEach(function(element, index, array) {
 });
 
 let obj = {
-    name: "Rohan Das",
+    name: "Samir",
     age: 78,
     type: "Dangerous Programmer",
     os: "Ubuntu"
@@ -52,3 +48,5 @@ for (let key in obj) {
 }
 
 console.log('done');
+
+console.log('Happy_Learning_JavaScript');
