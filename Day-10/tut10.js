@@ -15,7 +15,7 @@ function ui(name) {
     return `This is a ${name} ui`;
 }
 
-console.log(ui("Samir"), i)
+console.log(ui("Abhay"), i)
 const mygreet = function(name, thank = 'Thank You') {
     let msg = `Happy Birthday ${name} How I wish I could fly to you right now and be with you on this special day of yours. But remember, my good wishes are always there with you. ${thank}!`;
     return msg;
@@ -23,7 +23,7 @@ const mygreet = function(name, thank = 'Thank You') {
 }
 
 
-let name = 'Alok';
+let name = 'Krishna';
 let name2 = 'Manjay';
 
 let val = mygreet(name, 'Thanks a lot');
