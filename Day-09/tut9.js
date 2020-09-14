@@ -1,6 +1,6 @@
 console.log('JavaScript_Learning_Day-09');
 
-// General Loops: for,while, do-while
+// General Loops: for,while,do-while....
 
 let a = 34;
 a += 1;

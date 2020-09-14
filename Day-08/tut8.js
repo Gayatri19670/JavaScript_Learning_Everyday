@@ -21,19 +21,19 @@ if (typeof vari !== 'undefined') {
 } else {
     console.log('vari is not defined');
 }
-if (doseDrive) {
+if (doesDrive) {
     console.log('You can Drive');
 } else {
     console.log('You can not Drive');
 }
 
-if (doseDrive || age > 18) {
+if (doesDrive || age > 18) {
     console.log('You can Drive');
 } else {
     console.log('You can not Drive');
 }
 
-if (doseDrive && age > 18) {
+if (doesDrive && age > 18) {
     console.log('You can Drive');
 } else {
     console.log('You can not Drive');
