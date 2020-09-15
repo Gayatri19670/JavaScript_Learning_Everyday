@@ -1,7 +1,3 @@
-console.log('JavaScript_Learning_Day-10');
-
-// Functions in JavaScript
-
 console.log('Samir');
 
 // let name = 'samir';
@@ -75,4 +71,3 @@ function code(name) {
 
 }
 console.log(code("Avinash"), j);
-console.log('Happy_Learning_JavaScript');
