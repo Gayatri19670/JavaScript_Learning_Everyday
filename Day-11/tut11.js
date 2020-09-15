@@ -58,7 +58,7 @@ console.log(a);
 
 a = location;
 location.reload
-location.href '//google.com'
+location.href '//facebook.com'
 console.log(a);
 a = location.toString();
 console.log(a);
