@@ -1,73 +1,72 @@
-console.log('Samir');
+console.log("JavaScript_Learning_Day-11");
 
-// let name = 'samir';
-let name2 = 'Krishna';
+// Manipulatin website Using JavaScript Windows Object
 
-function greet(name, thank = 'thank you') {
-    console.log(`Happy Birthday ${name} How I wish I could fly to you right now and be with you on this special day of yours. But remember, my good wishes are always there with you.${thank}!`)
-        // return 4;
+/*
+DOM (Document Object Model):-
+The document object represents the whole html document.
 
-    return msg;
-}
-let name = 'Abhay';
-// greet(name,'thanks a lot');
-greet(name);
-let val = greet(name, 'thanks a lot');
-console.log(val);
+When html document is loaded in the browser, it becomes a document object. It is the root element that represents the html document. It has properties and methods. By the help of document object, we can add dynamic content to our web page.
 
-const mygreet = function greet(name, thank = 'thank you') {
-    console.log(`Happy Birthday ${name} How I wish I could fly to you right now and be with you on this special day of yours. But remember, my good wishes are always there with you.${thank}!`)
-        // return 4;
+As mentioned earlier, it is the object of window. 
+*/
 
-    return msg;
-}
-let name = 'Manjay';
-// greet(name,'thanks a lot');
-// greet(name);
-let val = mygreet(name, 'thanks a lot');
-console.log(val);
 
-const myobj = {
-    name: 'Rahul',
-    game: function() {
-        return "GTA";
-    }
-}
-console.log(myobj.game());
+let a = window;
+window.alert('Hello world')
+a = prompt('This will destroy your Computer.Type your name')
+console.log(a);
 
-arr = ['fruit', 'vegetable', 'phone'];
-arr.forEach(function(element, index, array) {
-    console.log(element, index, array)
-    console.log(element, array)
-    console.log(element, index)
+/* The name you entered will be stored in a and give output in Console the of entering the name
+The prompt gives you 1 prompt. Under it, what you type is stored in the variable. */
 
-});
+a = confirm('Are you sure want to delete this page');
+console.log(a);
 
-// scope in JavaScript
+//If we press Yes, it will give true output in the console.
+//If we press No, it will give False output in the console.
 
-// var has function level scope
-var i = 234;
-console.log(i);
+a = window.document;
+console.log(a);
 
-function ui(name) {
-    var i = 25;
-    i = 9;
-    console.log(i);
-    return `this is a ${name} ui`;
+/*
 
-}
-console.log(ui("Rajat"), i);
+write("string")	writes the given string on the doucment.
+writeln("string")	writes the given string on the doucment with newline character at the end.
+getElementById()	returns the element having the given id value.
+getElementsByName()	returns all the elements having the given name value.
+getElementsByTagName()	returns all the elements having the given tag name.
+getElementsByClassName()	returns all the elements having the given class name.
 
-// let/const has block level scope
+*/
 
-let j = 24;
-console.log(j);
+// let discuss about inner height and inner width
 
-function code(name) {
-    let j = 10;
-    j = 9;
-    console.log(j);
-    return `this is a ${name} code`;
+a = window.innerHeight;
+console.log(a);
+a = window.innerWidth;
+console.log(a);
+a = window.outerHeight;
+console.log(a);
+a = window.outerWidth;
+console.log(a);
+a = scrollX;
+console.log(a);
+a = scrollY;
+console.log(a);
 
-}
-console.log(code("Avinash"), j);
+
+a = location;
+location.reload
+location.href '//google.com'
+console.log(a);
+a = location.toString();
+console.log(a);
+a = window.history
+console.log(a);
+a = history.length
+console.log(a);
+a = history.goto()
+console.log(a);
+
+console.log('Happy_Learning_JavaScript');
