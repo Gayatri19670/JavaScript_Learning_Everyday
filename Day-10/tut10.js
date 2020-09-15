@@ -13,7 +13,7 @@ function greet(name, thank = 'thank you') {
 
     return msg;
 }
-let name = 'Abhay';
+let name = 'Ayush';
 // greet(name,'thanks a lot');
 greet(name);
 let val = greet(name, 'thanks a lot');
@@ -75,4 +75,5 @@ function code(name) {
 
 }
 console.log(code("Avinash"), j);
+
 console.log('Happy_Learning_JavaScript');
