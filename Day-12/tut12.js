@@ -18,19 +18,3 @@ scripts and print the list of
 images and scripts on an html page 
 */
 
-a = document.images;
-console.log(a);
-a = document.scripts;
-console.log(a);
-a = document.links;
-console.log(a);
-
-a = document.all;
-a.forEach(function(element) {
-    console.log(element);
-})
-console.log(a);
-
-array.from(a).forEach(function(element) {
-    console.log(element);
-});
