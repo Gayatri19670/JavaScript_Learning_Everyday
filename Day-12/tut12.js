@@ -31,6 +31,11 @@ a.forEach(function(element) {
 })
 console.log(a);
 
+//"a.forEach" not a function so this gives error
+// To avoid this, we use the "array.form".
+// Array in this case array creates a collection of HTML
+
 array.from(a).forEach(function(element) {
     console.log(element);
 });
+console.log(a);
