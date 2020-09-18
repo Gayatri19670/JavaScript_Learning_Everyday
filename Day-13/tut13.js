@@ -14,7 +14,7 @@ string containing the text which is a link
 
  */
 
-/////// Solution /////////
+////////// Solution ////////////
 
 let str = 'Python'
 let links = document.links;
