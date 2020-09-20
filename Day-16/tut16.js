@@ -1,4 +1,5 @@
-console.log('this is tut 16');
+console.log('JavaScript_Learning_Day-16');
+
 
 // Creating, Removing & Replacing Elements
 
@@ -32,3 +33,5 @@ let pr = elem2.hasAttribute('href');
 elem2.removeAttribute('id');
 elem2.setAttribute('title', 'myelem2title');
 console.log(elem2, pr);
+
+console.log('Happy_Learning_JavaScript');
