@@ -55,3 +55,4 @@ Array.from(elems).forEach(element => {
     element.style.color = 'blue';
 });
 console.log(elems[0].getElementsByClassName('child'))
+console.log('Happy_Learning_JavaScript');
