@@ -1,12 +1,12 @@
 console.log('JavaScript_Learning_Day-17');
 
-// Events & Event object 
+// Events & Event object in JavaScript
 
-// document.getElementById("heading").addEventListener("click") 
-// document.getElementById("heading").addEventListener("click", function(){
-//     console.log("You have clicked the heading");
+document.getElementById("heading").addEventListener("click")
+document.getElementById("heading").addEventListener("click", function() {
+    console.log("You have clicked the heading");
 
-// });
+});
 
 // How to redirect a webpage in your code
 
