@@ -3,6 +3,17 @@ console.log('JavaScript_Learning_Day-16');
 
 // Creating, Removing & Replacing Elements
 
+
+// How to create Elements
+let element = document.createElement('Li');
+element.className = 'childul';
+console.log(element);
+element.id = 'createdLi';
+element.setAttribute('title', 'mytitle');
+console.log(element);
+
+// How to append into DOM
+
 let element = document.createElement('li');
 let text = document.createTextNode('I am a text node');
 element.appendChild(text)
@@ -18,6 +29,8 @@ let ul = document.querySelector('ul.this');
 ul.appendChild(element);
 console.log(ul)
 console.log(element)
+
+// How to replace an element 
 
 let elem2 = document.createElement('h3');
 elem2.id = 'elem2';
