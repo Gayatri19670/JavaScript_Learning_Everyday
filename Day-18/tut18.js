@@ -1,4 +1,8 @@
-console.log('This is tut 18');
+console.log('JavaScript_Learning_Day-18');
+
+// More on JavaScript Events
+
+
 // let btn = document.getElementById('btn');
 // btn.addEventListener('click', func1);
 // // btn.addEventListener('mousedown', func3);
@@ -18,6 +22,8 @@ console.log('This is tut 18');
 //     console.log("Thanks its a mouse down ", e);
 //     e.preventDefault();
 // }
+
+
 // document.querySelector('.no').addEventListener('mouseenter', function(){
 
 
@@ -28,8 +34,15 @@ console.log('This is tut 18');
 //     console.log('You exited no')
 // })
 
+// document.querySelector('.no').addEventListener('mousemove', function(){
+//     console.log('You triggered mouse move event');
+// })
+
 document.querySelector('.container').addEventListener('mousemove', function(e) {
     console.log(e.offsetX, e.offsetY);
     document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetX},154)`;
     console.log('You triggered mouse move event')
 })
+
+
+console.log('Happy_Learning_JavaScript');
