@@ -2,6 +2,20 @@ console.log('JavaScript_Learning_Day-18');
 
 // More on JavaScript Events
 
+/*
+#Reacting to #Events :
+A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.
+To execute code when a user clicks on an element, add JavaScript code to an HTML event attribute
+Examples of HTML events:
+1. When a user clicks the mouse
+2. When a web page has loaded
+3. When an image has been loaded
+4. When the mouse moves over an element
+5. When an input field is changed
+6. When an HTML form is submitted
+7. When a user strokes a key
+
+*/
 
 let btn = document.getElementById('btn');
 btn.addEventListener('click', func1);
