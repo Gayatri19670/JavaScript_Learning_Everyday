@@ -1,4 +1,4 @@
-console.log('JavaScript_Learning_Day-17');
+console.log('JavaScript_Learning_Day-19');
 
 // localStorage == Key & Value
 // SessionStorage == Closing the browser, all the data gets lit.
