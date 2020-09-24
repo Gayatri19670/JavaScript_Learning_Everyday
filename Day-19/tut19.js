@@ -10,9 +10,6 @@ localStorage.setItem('Name', 'Manjay');
 localStorage.setItem('Name2', 'Gautam');
 localStorage.setItem('Sabzi', JSON.stringify(impArray));
 
-
-
-
 // Clears the entire local storage
 localStorage.clear();
 
