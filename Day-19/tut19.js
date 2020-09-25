@@ -25,4 +25,7 @@ sessionStorage.setItem('sessionName', 'sRahul');
 sessionStorage.setItem('sessionName2', 'sAlok');
 sessionStorage.setItem('sessionSabzi', JSON.stringify(impArray));
 
+/*
+Note: The web storage data (both localStorage and sessionStorage) will not be available between different browsers, for example the data stored in Firefox browser will not available in Google Chrome, Safari, Internet Explorer or other browsers.
+ */
 console.log('Happy_Learning_JavaScript');
