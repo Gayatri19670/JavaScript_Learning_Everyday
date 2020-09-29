@@ -2,6 +2,13 @@ console.log("JavaScript_Learning_Day-23");
 
 // Date Object : Date & Time In JavaScript
 
+/**
+ * JavaScript Date Object :
+The JavaScript date object can be used to get the year, month, and day. You can display a timer on the webpage with the help of a javascript date object.
+You can use different Date constructors to create the date object. It provides methods to get and set day, month, year, hour, minute, and seconds.
+
+ */
+
 let today = new Date();
 console.log(today);
 console.log(typeof today);
