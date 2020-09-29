@@ -1,4 +1,4 @@
-console.log("JavaScript_Learning_Day-24");
+console.log("JavaScript_Learning_Day-23");
 
 // Date Object : Date & Time In JavaScript
 
@@ -61,3 +61,5 @@ a = otherDate.setHours(5);
 console.log(otherDate);
 a = otherDate.setSeconds(6);
 console.log(otherDate);
+
+console.log("Happy_Learning_JavaScript")
