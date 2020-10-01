@@ -17,9 +17,10 @@ Examples of HTML events:
 
 */
 
+
 let btn = document.getElementById('btn');
 btn.addEventListener('click', func1);
-// btn.addEventListener('mousedown', func3);
+btn.addEventListener('mousedown', func3);
 btn.addEventListener('dblclick', func2);
 
 function func1(e) {
@@ -37,10 +38,7 @@ function func3(e) {
     e.preventDefault();
 }
 
-
 document.querySelector('.no').addEventListener('mouseenter', function() {
-
-
     console.log('You entered no')
 })
 
@@ -49,7 +47,7 @@ document.querySelector('.no').addEventListener('mouseleave', function() {
 })
 
 document.querySelector('.no').addEventListener('mousemove', function() {
-    console.log('You triggered mouse move event');
+    console.log('You triggered mouse move event')
 })
 
 document.querySelector('.container').addEventListener('mousemove', function(e) {
@@ -57,6 +55,5 @@ document.querySelector('.container').addEventListener('mousemove', function(e) {
     document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetX},154)`;
     console.log('You triggered mouse move event')
 })
-
 
 console.log('Happy_Learning_JavaScript');

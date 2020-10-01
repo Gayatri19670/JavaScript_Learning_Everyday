@@ -22,50 +22,63 @@ type  ===	Returns the name of the event
 */
 
 
-document.getElementById("heading").addEventListener("click")
 document.getElementById("heading").addEventListener("click", function() {
     console.log("You have clicked the heading");
-
+    location.href = '//google.com' // this will take me to google.com
 });
 
-// How to redirect a webpage in your code
-
-document.getElementById("heading").addEventListener("click", function() {
-    console.log("You have clicked the heading");
-    location.href = '//facebook.com'
-});
-//  How to printEvent object(e)
+// click
 
 document.getElementById("heading").addEventListener("click", function(e) {
     let variable;
     console.log("You have clicked the heading");
     variable = e.target;
+    console.log(variable);
     variable = e.target.className;
+    console.log(variable);
+    variable = e.target.classList;
+    console.log(variable);
     variable = Array.from(e.target.classList);
+    console.log(variable);
 
     variable = e.target.id;
+    console.log(variable);
     variable = e.offsetX;
+    console.log(variable);
     variable = e.offsetY;
+    console.log(variable);
     variable = e.clientX;
+    console.log(variable);
     variable = e.clientY;
     console.log(variable);
-    // location.href = '//facebook.com'
+    // location.href = '//google.com'
 });
 
-document.getElementById("heading").addEventListener('mouseover', function(e) {
+// mouseover
+
+document.getElementById("heading").addEventListener("mouseover", function(e) {
     let variable;
     console.log("You have clicked the heading");
     variable = e.target;
+    console.log(variable);
     variable = e.target.className;
+    console.log(variable);
+    variable = e.target.classList;
+    console.log(variable);
     variable = Array.from(e.target.classList);
+    console.log(variable);
 
     variable = e.target.id;
+    console.log(variable);
     variable = e.offsetX;
+    console.log(variable);
     variable = e.offsetY;
+    console.log(variable);
     variable = e.clientX;
+    console.log(variable);
     variable = e.clientY;
     console.log(variable);
-    // location.href = '//facebook.com'
+    // location.href = '//google.com'
 });
 
 console.log('Happy_Learning_JavaScript');
