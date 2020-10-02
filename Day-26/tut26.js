@@ -1,4 +1,4 @@
-console.log('JavaScript_Learning_Day-30')
+console.log('JavaScript_Learning_Day-26')
 
 const proto = {
     slogan: function() {
