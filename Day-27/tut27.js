@@ -1,9 +1,6 @@
 console.log("JavaScript_Learning_Day-27");
 
-
 // Classes And inheritance in JavaScript
-
-
 
 class Employee {
     constructor(givenName, givenExperience, givenDivision) {
