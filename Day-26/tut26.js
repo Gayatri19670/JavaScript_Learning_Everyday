@@ -1,6 +1,8 @@
 console.log('JavaScript_Learning_Day-26')
 
-// Classes And inheritance in JavaScript
+// Prototype Inheritance In JavaScript 
+
+
 const proto = {
     slogan: function() {
         return `This College is the best`;
