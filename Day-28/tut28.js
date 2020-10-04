@@ -1,4 +1,4 @@
-console.log("JavaScript_Learning_Day-34");
+console.log("JavaScript_Learning_Day-28");
 
 // What is Asynchronous Programming?
 /**
@@ -18,3 +18,5 @@ setTimeout(() => {
 
 
 console.log('done printing');
+
+console.log('Happy_Learning_JavaScript');
