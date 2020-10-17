@@ -2,9 +2,6 @@ console.log("JavaScript_Learning_Day-31");
 
 // AJAX: Asynchronous JavaScript and XML
 
-
-
-
 let fetchBtn = document.getElementById('fetchBtn');
 fetchBtn.addEventListener('click', buttonClickHandler)
 
@@ -27,10 +24,8 @@ function buttonClickHandler() {
         console.log('On progress');
     }
 
-
     // xhr.onreadystatechange = function () {
     //     console.log('ready state is ', xhr.readyState);
-
     // }
 
     // What to do when response is ready
@@ -62,7 +57,6 @@ function popHandler() {
 
     // Open the object
     xhr.open('GET', 'samir.txt', true);
-
 
     // What to do when response is ready
     xhr.onload = function() {
