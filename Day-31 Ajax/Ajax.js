@@ -61,7 +61,7 @@ function popHandler() {
     const xhr = new XMLHttpRequest();
 
     // Open the object
-    xhr.open('GET', 'harry.txt', true);
+    xhr.open('GET', 'samir.txt', true);
 
 
     // What to do when response is ready
