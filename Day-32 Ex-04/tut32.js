@@ -40,3 +40,5 @@ class Library {
         delete this.issuedBooks[bookname];
     }
 }
+
+console.log('Happy_Learning_JavaScript');
