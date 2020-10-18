@@ -1,3 +1,17 @@
+// Library Class Implementation
+
+// ********************** Exercise-04 ******************
+// Create a class library and implement the following:
+// constructor must take the book list as an argument
+// getBookList()
+// issueBook(bookname, user)
+// returnBook(bookname)
+
+
+
+// ************Exercise-04 SOLUTION******************
+
+
 class Library {
     constructor(bookList) {
         this.bookList = bookList;
