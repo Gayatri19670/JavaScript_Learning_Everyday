@@ -29,7 +29,7 @@ Function getStudents() {
     }, 1000);
 }
 
-let newStudent = { name: "Manjay", subject: "Microprocessor" }
+let newStudent = { name: "Manjay", subject: "Microprocessor" };
 enrollStudent(newStudent);
 getStudents();
 
