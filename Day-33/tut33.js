@@ -5,12 +5,6 @@ const students = [
     { name: "Alok", subject: "Machin Learning" }
 ]
 
-
-
-
-
-
-
 function enrollStudent(student, callback) {
     setTimeout(function() {
         students.push(student);
