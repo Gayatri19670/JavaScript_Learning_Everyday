@@ -1,4 +1,7 @@
+console.log("JavaScript_Learning_Day-33");
+
 // Pretent that this response is coming from the server
+
 
 const students = [
     { name: "Samir", subject: "JavaScript" },
