@@ -25,3 +25,7 @@ Function getStudents() {
         console.log('Student have been fetched');
     }, 1000);
 }
+
+let newStudent = { name: "Manjay", subject: "Microprocessor" }
+enrollStudent(newStudent);
+getStudents();
