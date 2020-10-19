@@ -32,3 +32,5 @@ Function getStudents() {
 let newStudent = { name: "Manjay", subject: "Microprocessor" }
 enrollStudent(newStudent);
 getStudents();
+
+console.log('Happy_Learning_JavaScript');
