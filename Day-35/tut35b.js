@@ -8,14 +8,19 @@ const students = [
     { name: "Alok", subject: "Machin Learning" }
 ]
 
-function enrollStudent(student, callback) {
-    setTimeout(function() {
-        students.push(student);
-        console.log('Student Has been enrolled');
-        callback();
+function enrollStudent(student) {
+    return new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            students.push(student);
+            console.log('Student Has been enrolled');
+            if (!error) {
+                resolve();
+            } else {
+                reject();
+            }
 
-    }, 3000);
-
+        }, 3000);
+    })
 }
 
 function getStudents() {
