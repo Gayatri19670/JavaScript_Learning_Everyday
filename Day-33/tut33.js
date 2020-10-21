@@ -18,7 +18,7 @@ function enrollStudent(student, callback) {
 
 }
 
-Function getStudents() {
+function getStudents() {
     setTimeout(function() {
         let str = "";
         students.forEach(function(student) {
