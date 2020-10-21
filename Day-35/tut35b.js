@@ -13,6 +13,7 @@ function enrollStudent(student) {
         setTimeout(function() {
             students.push(student);
             console.log('Student Has been enrolled');
+            const error = false;
             if (!error) {
                 resolve();
             } else {
