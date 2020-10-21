@@ -35,7 +35,11 @@ function getStudents() {
 }
 
 let newStudent = { name: "Manjay", subject: "Microprocessor" };
-enrollStudent(newStudent);
-getStudents();
+enrollStudent(newStudent).then(function() {
+    getStudents();
+}).catch(function() {
+    console.log('Some error occured');
+});
+// getStudents();
 
 console.log('Happy_Learning_JavaScript');
