@@ -23,5 +23,8 @@ function func1() {
 }
 
 func1().then(function() {
+    console.log('Samir: Thanks for resolving');
+}).catch(function(error) {
+    console.log('Samir: Very bad bro' + error);
 
 })
