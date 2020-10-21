@@ -1,4 +1,4 @@
-console.log("JavaScript_Learning_Day-34");
+console.log("JavaScript_Learning_Day-35");
 
 /*
     Promise-
