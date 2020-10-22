@@ -20,7 +20,7 @@ function enrollStudent(student) {
                 reject();
             }
 
-        }, 3000);
+        }, 1000);
     })
 }
 
