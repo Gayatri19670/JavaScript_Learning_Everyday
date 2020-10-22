@@ -28,3 +28,5 @@ func1().then(function() {
     console.log('Samir: Very bad bro' + error);
 
 })
+
+console.log('Happy_Learning_JavaScript');
