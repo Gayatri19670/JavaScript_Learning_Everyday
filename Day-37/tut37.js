@@ -10,6 +10,7 @@ const samir = function() {
 samir();
 
 // Converting it to an arrow function
+
 const samir = () => {
     console.log('this is the best person ever');
 }
