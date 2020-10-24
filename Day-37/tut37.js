@@ -24,3 +24,12 @@ const greet = function() {
 
 }
 greet()
+
+// one liners do not require braces/return
+// one line will automatically return
+
+const greet = () => 'Good Morning';
+
+const greet = () => ({ name: "Samir" });
+
+// Single parameters do not need parameter
