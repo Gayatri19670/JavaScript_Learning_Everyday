@@ -19,17 +19,24 @@ samir();
 
 // function returning something
 
-const greet = function() {
-    return 'Good Morning'
+// const greet = function() {
+//     return 'Good Morning'
 
-}
-greet()
+// }
+// greet()
 
 // one liners do not require braces/return
 // one line will automatically return
 
-const greet = () => 'Good Morning';
+// const greet = () => 'Good Morning';
 
-const greet = () => ({ name: "Samir" });
+// const greet = () => ({ name: "Samir" });
 
-// Single parameters do not need parameter
+// Single parameters do not need parenthesis
+// but you will have to put parenthesis if there are multiple parameters
+
+// const greet = name => 'Good Morning' + name + ending;
+
+// console.log('greet');
+
+// console.log('Happy Learning JavaScript');
