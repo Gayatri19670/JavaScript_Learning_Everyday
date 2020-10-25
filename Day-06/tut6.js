@@ -40,3 +40,5 @@ let myHtml = `hello &{name}
 <p> You like ${fruit1} and ${fruit1}
 `;
 document.body.innerHTML = myHtml;
+
+console.log('Happy_Learning_JavaScript');
