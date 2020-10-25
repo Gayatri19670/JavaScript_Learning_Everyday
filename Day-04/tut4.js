@@ -1,5 +1,7 @@
-console.log('hello! world Welcome to JavaScript');
 console.log('JavaScript_Learning_Day-04');
+
+
+console.log('hello! world Welcome to JavaScript');
 
 // Data Types In JavaScript
 
@@ -47,4 +49,3 @@ console.log(typeof findName);
 
 let date = new Date();
 console.log(typeof date);
-
