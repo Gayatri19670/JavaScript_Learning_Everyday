@@ -36,3 +36,6 @@ let mystr = "675";
 let mynum = 34;
 //console.log(mystr,mynum); =675 34
 //console.log(mystr+mynum); =67534
+
+
+console.log('Happy_Learning_JavaScript');
