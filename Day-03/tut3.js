@@ -29,14 +29,14 @@ console.log(ownersName);
 const fruit = 'Orange';
 
 {
- let city = 'Rampur';   
- city = 'Kolkata';
- console.log(city);
+    let city = 'Rampur';
+    city = 'Kolkata';
+    console.log(city);
 }
 console.log(city);
 
 
-const arr1 = [12,23,12,53, 3]; 
+const arr1 = [12, 23, 12, 53, 3];
 // arr1.push(45);
 console.log(arr1)
 
@@ -49,4 +49,5 @@ console.log(arr1)
 
 
 */
-   
+
+console.log("Happy Learning JavaScript");
