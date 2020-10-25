@@ -49,3 +49,6 @@ console.log(typeof findName);
 
 let date = new Date();
 console.log(typeof date);
+
+
+console.log('Happy learning JavaScript');
