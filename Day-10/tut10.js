@@ -74,6 +74,6 @@ function code(name) {
     return `this is a ${name} code`;
 
 }
-console.log(code("Avinash"), j);
+console.log(code("Avinash singh"), j);
 
 console.log('Happy_Learning_JavaScript');
