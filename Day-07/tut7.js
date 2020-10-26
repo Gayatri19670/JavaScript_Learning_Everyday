@@ -60,4 +60,4 @@ console.log(Array.isArray(array1);
         console.log(myobj); console.log(myobj.isActive);
 
 
-        console.log('Happy learning JavaScript')
+        console.log('Happy learning JavaScript');
