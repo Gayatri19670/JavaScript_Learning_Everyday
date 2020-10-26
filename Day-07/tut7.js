@@ -58,3 +58,6 @@ console.log(Array.isArray(array1);
             marks: [1, 5, 3, 6]
         }
         console.log(myobj); console.log(myobj.isActive);
+
+
+        console.log('Happy learning JavaScript')
