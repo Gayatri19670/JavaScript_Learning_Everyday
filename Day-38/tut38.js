@@ -4,4 +4,5 @@ console.log("hello world");
 // events
 // DOM
 // date object
+// time object
 console.log('Happy learning JavaScript')
