@@ -3,4 +3,5 @@ console.log("hello world");
 // array
 // events
 // DOM
+// date object
 console.log('Happy learning JavaScript')
