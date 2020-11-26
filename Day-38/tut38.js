@@ -5,4 +5,5 @@ console.log("hello world");
 // DOM
 // date object
 // time object
+//loops
 console.log('Happy learning JavaScript')
