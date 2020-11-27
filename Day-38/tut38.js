@@ -6,4 +6,5 @@ console.log("hello world");
 // date object
 // time object
 //loops
+//Data type
 console.log('Happy learning JavaScript')
