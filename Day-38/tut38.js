@@ -7,4 +7,5 @@ console.log("hello world");
 // time object
 // loops
 // Data type
+// math object
 console.log('Happy learning JavaScript')
