@@ -8,4 +8,5 @@ console.log("hello world");
 // loops
 // Data type
 // math object
+// string 
 console.log('Happy learning JavaScript')
