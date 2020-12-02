@@ -9,4 +9,5 @@ console.log("hello world");
 // Data type
 // math object
 // string 
+// AJAX
 console.log('Happy learning JavaScript')
