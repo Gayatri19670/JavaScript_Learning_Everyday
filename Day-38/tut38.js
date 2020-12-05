@@ -12,6 +12,7 @@ console.log("hello world");
 // AJAX
 // oops
 //async function
-  // body...
-}
+// body...
+  
+
 console.log('Happy learning JavaScript')
