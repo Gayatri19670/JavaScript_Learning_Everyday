@@ -13,6 +13,6 @@ console.log("hello world");
 // oops
 //async function
 // body...
-  
+// types of console
 
 console.log('Happy learning JavaScript')
